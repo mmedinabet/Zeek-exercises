@@ -48,26 +48,49 @@ An alert triggered: "Phishing Attempt".
 The case was assigned to you. Inspect the PCAP and retrieve the artefacts to confirm this alert is a true positive. 
 
 Investigate the logs. What is the suspicious source address? Enter your answer in defanged format.
+![Screenshot 2024-05-13 3 57 54 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/3792a028-12df-4823-8fab-7a79950e3e75)
+- Answer: 10[.]6[.]27[.]102
 
 Investigate the http.log file. Which domain address were the malicious files downloaded from? Enter your answer in defanged format.
+![Screenshot 2024-05-13 3 59 49 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/bac45944-6112-4d0c-af2f-8ac654c85493)
+- Answer: smart-fax[.]com
 
 Investigate the malicious document in VirusTotal. What kind of file is associated with the malicious document?
+![Screenshot 2024-05-13 4 04 11 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/429faa5a-9e3c-4e28-b119-f8b5f1b6db18)
+
+![Screenshot 2024-05-13 4 07 38 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/80c969cb-9f12-493c-b679-10a144d2a602)
+- Answer:VBA
 
 Investigate the extracted malicious .exe file. What is the given file name in Virustotal?
-
+![Screenshot 2024-05-13 4 11 34 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/62ce751f-8628-4788-bf5d-4ec07122c48d)
+- Answer: PleaseWaitWindow.exe
+  
 Investigate the malicious .exe file in VirusTotal. What is the contacted domain name? Enter your answer in defanged format.
+![Screenshot 2024-05-13 4 17 04 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/c07c5b6d-67f3-4c21-ab54-189f28c4a450)
 
+- Answer: hopto[.]org
+  
 Investigate the http.log file. What is the request name of the downloaded malicious .exe file?
 
-<h2>Task 3: Log4J/h2>
+I found the answer when completing the first question.
+
+- Answer:knr.exe
+
+  
+
+<h2>Task 3: Log4J </h2>
 An alert triggered: "Log4J Exploitation Attempt".
 
 The case was assigned to you. Inspect the PCAP and retrieve the artefacts to confirm this alert is a true positive. 
 
 
 Investigate the log4shell.pcapng file with detection-log4j.zeek script. Investigate the signature.log file. What is the number of signature hits?
+![Screenshot 2024-05-13 4 29 44 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/a49ee11c-42da-4e22-8b53-18493e3a2a20)
+- Answer: 3
 
 Investigate the http.log file. Which tool is used for scanning?
+![Screenshot 2024-05-13 4 32 55 PM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/cc3d69e9-a49e-4463-a826-737d895a7d33)
+- Answer: Nmap
 
 Investigate the http.log file. What is the extension of the exploit file?
 
