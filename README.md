@@ -76,8 +76,6 @@ I found the answer when completing the first question.
 
 - Answer:knr.exe
 
-  
-
 <h2>Task 3: Log4J </h2>
 An alert triggered: "Log4J Exploitation Attempt".
 
@@ -93,5 +91,17 @@ Investigate the http.log file. Which tool is used for scanning?
 - Answer: Nmap
 
 Investigate the http.log file. What is the extension of the exploit file?
+![Screenshot 2024-05-14 11 31 16 AM](https://github.com/mmedinabet/Zeek-exercises/assets/142737434/fd9aff2b-7c72-4804-8492-9652943bab60)
+- Answer: .class
 
-Investigate the log4j.log file. Decode the base64 commands. What is the name of the created file?
+<h2>Conclusion</h2>
+In conclusion, this lab provided a hands-on experience in investigating various types of network traffic data using Zeek, a powerful network analysis tool. Through the tasks presented, students were tasked with analyzing PCAP files and log data to identify and mitigate potential security threats.
+
+In Task 1, I explored anomalous DNS activity, analyzing DNS records, connection durations, unique domain queries, and source IP addresses involved in abnormal DNS query activity. This exercise enhanced participants' understanding of DNS-related security issues and how to address them effectively.
+
+Moving on to Task 2, I delved into a phishing attempt scenario, inspecting PCAP files and log data to confirm the alert and gather relevant artifacts. Through this task, participants gained insights into identifying suspicious source addresses, malicious domain addresses, file types associated with malicious documents, and contacted domain names from malicious executable files.
+
+Finally, Task 3 focused on investigating a Log4J exploitation attempt, where I analyzed PCAP files and log data to confirm the alert and gather pertinent information. By examining signature hits, scanning tools, and exploit file extensions, participants honed their skills in detecting and responding to Log4J-related security threats.
+
+Overall, this lab provided valuable practical experience in leveraging Zeek for network traffic analysis and enhancing participants' abilities to identify and mitigate security threats effectively. By completing this lab, I am better equipped to address similar security incidents in real-world scenarios, contributing to improved network security posture.
+
